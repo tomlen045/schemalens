@@ -34,7 +34,7 @@ import sys
 import tempfile
 from datetime import datetime
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 SAMPLE_CAP = 20000          # 采样上限：profile 只看前 N 行（输出里注明）
 ENUM_MAX_CARD = 12          # 低基数列阈值：distinct ≤ 12 才做枚举漂移
 RAGGED_RATE = 0.01          # 字段数不齐行占比 >1% 才报 SL-11
