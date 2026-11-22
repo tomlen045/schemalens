@@ -5,7 +5,7 @@ import subprocess
 import os
 
 REPO = "tomlen045/schemalens"
-SHA = "b17d47e67715b42d1d44c4762649f19464745b0b"
+SHA = "adeb565932cd4f024e0dad38e61e30f1c256afd8"
 SHOTS = ["01_profile", "02_demo_verdicts", "03_pollution",
          "04_dogfood_v100", "05_dogfood_v101", "06_selftest_cron"]
 LOCAL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "shots")

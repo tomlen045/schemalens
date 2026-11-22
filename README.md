@@ -47,7 +47,7 @@ schemalens 对数据文件做**.schema 体检**：给今天的表拍基线，
 而 pandas 一把 `df.amount.sum()` 就抛 TypeError。
 schemalens 逐值分类统计异型占比，跳升就点名。
 
-## 五命令
+## 六命令
 
 ```
 schemalens profile data.csv                    # 看这张表现在长什么样
