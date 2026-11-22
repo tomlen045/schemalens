@@ -63,8 +63,9 @@ if __name__ == "__main__":
         ("        （0%→50%，主导类型 float 不变也会炸下游）", RED, 19, False),
         ("[P1] SL-02 冒出新列 [shop_name]（第2列）", GOLD, 23, False),
         ("[P1] SL-09 列 [status] 枚举丢了旧值 paid", GOLD, 23, False),
-        ("—— 判决汇总：P0=3  P1=2  P2=2", WHITE, 23, False),
-        ("退出码=2：上游悄悄干了五件事，全部当场点名", GREEN, 21, False),
+        ("[P2] SL-09 列 [status] 冒出新枚举 done", GREY, 22, False),
+        ("—— 判决汇总：P0=3  P1=2  P2=1", WHITE, 23, False),
+        ("退出码=2：六条判决，全部当场点名", GREEN, 21, False),
     ], title="schemalens demo — 上游改表")
 
     # 03 招牌判决：部分列污染
